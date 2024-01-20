@@ -367,6 +367,7 @@ li>.link:focus {
 .footer-container {
     display: flex;
     align-items: flex-start;
+    justify-content: space-between;
 }
 
 .footer-logo {
@@ -383,13 +384,11 @@ li>.link:focus {
     color: var(--cloud);
     letter-spacing: 0.02em;
     max-width: 264px;
+    margin: 0;
 }
 
 .footer-socials {
-    display: flex;
-    gap: 16px;
-    list-style: none;
-    padding: 0;
+    flex-direction: column;
 }
 
 .footer-socials-text  {
@@ -400,6 +399,11 @@ li>.link:focus {
 .footer-socials-item {
     width: 40px;
     height: 40px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: row;
 }
 
 .footer-socials-link {
