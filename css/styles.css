@@ -367,7 +367,7 @@ li>.link:focus {
 .footer-container {
     display: flex;
     justify-content: flex-start;
-    gap: 25%;
+    gap: 15%;
 }
 
 .footer-logo {
@@ -389,6 +389,7 @@ li>.link:focus {
 
 .footer-socials {
     flex-direction: column;
+    gap: 16px;
 }
 
 .footer-socials-text  {
