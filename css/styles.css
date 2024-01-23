@@ -366,8 +366,8 @@ li>.link:focus {
 }
 .footer-container {
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 25%;
 }
 
 .footer-logo {
